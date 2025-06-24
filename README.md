@@ -30,19 +30,19 @@ If you are developing a production application, we recommend using TypeScript wi
 
  2. Backend Setup
 
-cd backend
-cp .env.example .env # On Windows, copy .env.example .env
-npm install
-npm start
+-cd backend
+-cp .env.example .env # On Windows, copy .env.example .env
+-npm install
+-npm start
 
 Edit `.env` to set your MongoDB password if needed.
 The backend will run on `http://localhost:5000` by default.
 
  3. Frontend Setup
 
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
 The frontend will run on `http://localhost:3000` by default.
 
